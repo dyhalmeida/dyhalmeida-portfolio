@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
+import { motion as Motion } from 'framer-motion'
 import { Link } from 'react-scroll'
-import { MotionLi } from '../Motion'
+import { itemsVariantsX } from '../../utils/constants.animates'
 
 interface IItemNavigationProps {
   children?: ReactNode
@@ -8,7 +9,7 @@ interface IItemNavigationProps {
 }
 export const ItemNavigation = ({ to, children }: IItemNavigationProps) => {
   return (
-    <MotionLi>
+    <Motion.li variants={itemsVariantsX} transition={{ duration: 1 }}>
       <Link
         activeClass="active"
         to={to}
@@ -20,6 +21,6 @@ export const ItemNavigation = ({ to, children }: IItemNavigationProps) => {
       >
         {children}
       </Link>
-    </MotionLi>
+    </Motion.li>
   )
 }
