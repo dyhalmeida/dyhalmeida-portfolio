@@ -1,4 +1,5 @@
 import { Header } from './components/Header'
+import { Home } from './components/Home'
 import { Theme } from './components/Theme/Theme'
 import { GlobalStyle } from './styles/global'
 
@@ -7,6 +8,7 @@ export const App = () => {
     <Theme>
       <GlobalStyle />
       <Header />
+      <Home />
     </Theme>
   )
 }

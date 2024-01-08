@@ -3,11 +3,11 @@ import { createGlobalStyle, css } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
    :root {
-     --white: #ffff;
-     --gray-100: #f0f0f0;
-     --gray-200: #1f1f1f;
-     --gray-300: #9ca3af;
-     --blue: #0d52ff; 
+     --white: #FFFFFF;
+     --gray-100: #F0F0F0;
+     --gray-200: #1F1F1F;
+     --gray-300: #9CA3AF;
+     --green: #00FF00; 
      --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
    }
    * {
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
      }
 
      ::-webkit-scrollbar-thumb {
-       background: var(--blue);
+       background: var(--green);
        border-radius: 10px;
      }
 
