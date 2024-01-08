@@ -1,9 +1,4 @@
-import {
-  AiFillLinkedin as LinkedinIcon,
-  AiOutlineWhatsApp as WhatsAppIcon,
-  AiFillGithub as GithubIcon,
-} from 'react-icons/ai'
-import { Motion } from '../../../libs'
+import { GithubIcon, LinkedinIcon, Motion, WhatsAppIcon } from '../../../libs'
 import {
   itemVariantsTitles,
   itemsVariantsX,

@@ -1,8 +1,7 @@
-import { motion as Motion } from 'framer-motion'
+import { Motion } from '../../libs'
 import { ItemNavigation } from '../ItemNavigation/ItemNavigation'
 
 import { Container } from './Nav.styles'
-
 import { containerVariantsNav } from '../../utils/constants.animates'
 import { menus } from '../../utils/constants.menus'
 

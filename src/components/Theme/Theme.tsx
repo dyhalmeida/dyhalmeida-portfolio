@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from '../../libs'
 
 import * as theme from '../../styles/themes'
 

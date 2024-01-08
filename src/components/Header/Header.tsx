@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll'
-import { RiMenu3Fill as MenuMobileIcon } from 'react-icons/ri'
+import { MenuMobileIcon } from '../../libs'
 import { Nav } from '../Nav'
 
 import { Container } from './Header.styles'

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
-import { motion as Motion } from 'framer-motion'
-import { Link } from 'react-scroll'
+import { Link, Motion } from '../../libs'
+
 import { itemsVariantsX } from '../../utils/constants.animates'
 
 interface IItemNavigationProps {

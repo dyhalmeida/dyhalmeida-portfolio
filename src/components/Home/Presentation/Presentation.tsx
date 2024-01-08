@@ -1,5 +1,4 @@
-import TypeIt from 'typeit-react'
-import { Motion } from '../../../libs'
+import { Motion, TypeIt } from '../../../libs'
 import { itemVariantsTitles } from '../../../utils/constants.animates'
 
 export const Presentation = () => (

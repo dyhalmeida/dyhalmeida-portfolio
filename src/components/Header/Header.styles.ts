@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import { css, styled } from '../../libs'
 
 export const Container = styled.header`
   ${({ theme }) => css`
