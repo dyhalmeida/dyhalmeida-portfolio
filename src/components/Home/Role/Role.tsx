@@ -11,7 +11,7 @@ export const Role = () => {
       }}
     >
       <div className="line"></div>
-      <h2 className="job">Full Stack Developer | Frontend</h2>
+      <h2 className="job">Desenvolvedor Full Stack | Frontend</h2>
     </Motion.span>
   )
 }
