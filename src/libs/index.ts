@@ -1,3 +1,4 @@
+import { PiArrowLineDownLight as ArrowLineDownLightIcon } from 'react-icons/pi'
 import { RiMenu3Fill as MenuMobileIcon } from 'react-icons/ri'
 import {
   AiFillLinkedin as LinkedinIcon,
@@ -13,5 +14,11 @@ import styled, {
 import { Link } from 'react-scroll'
 import { motion as Motion } from 'framer-motion'
 
-export { MenuMobileIcon, LinkedinIcon, WhatsAppIcon, GithubIcon }
+export {
+  MenuMobileIcon,
+  LinkedinIcon,
+  WhatsAppIcon,
+  GithubIcon,
+  ArrowLineDownLightIcon,
+}
 export { TypeIt, Link, Motion, styled, css, ThemeProvider, createGlobalStyle }
