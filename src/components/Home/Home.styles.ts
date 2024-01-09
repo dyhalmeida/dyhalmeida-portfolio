@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: center;
   font-size: 1.625rem;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-color: var(--primary);
   > div {
     max-width: 1140px;
