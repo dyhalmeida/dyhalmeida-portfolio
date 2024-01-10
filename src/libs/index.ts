@@ -13,6 +13,7 @@ import styled, {
 } from 'styled-components'
 import { Link } from 'react-scroll'
 import { motion as Motion } from 'framer-motion'
+import { create as createZustand } from 'zustand'
 
 export {
   MenuMobileIcon,
@@ -21,4 +22,13 @@ export {
   GithubIcon,
   ArrowLineDownLightIcon,
 }
-export { TypeIt, Link, Motion, styled, css, ThemeProvider, createGlobalStyle }
+export {
+  TypeIt,
+  Link,
+  Motion,
+  styled,
+  css,
+  ThemeProvider,
+  createGlobalStyle,
+  createZustand,
+}
