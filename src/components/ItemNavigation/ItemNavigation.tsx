@@ -6,8 +6,13 @@ import { itemsVariantsX } from '../../utils/constants.animates'
 interface IItemNavigationProps {
   children?: ReactNode
   to: string
+  onClick?: () => void
 }
-export const ItemNavigation = ({ to, children }: IItemNavigationProps) => {
+export const ItemNavigation = ({
+  to,
+  children,
+  onClick,
+}: IItemNavigationProps) => {
   return (
     <Motion.li variants={itemsVariantsX} transition={{ duration: 1 }}>
       <Link
@@ -17,7 +22,7 @@ export const ItemNavigation = ({ to, children }: IItemNavigationProps) => {
         smooth
         offset={-70}
         duration={500}
-        onClick={() => {}}
+        onClick={onClick}
       >
         {children}
       </Link>
