@@ -3,6 +3,7 @@ import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { MenuMobile } from './components/MenuMobile'
+import { Skills } from './components/Skills'
 import { Theme } from './components/Theme/Theme'
 import { GlobalStyle } from './styles/global'
 
@@ -14,6 +15,7 @@ export const App = () => {
       <Header />
       <Home />
       <About />
+      <Skills />
       <Footer />
     </Theme>
   )

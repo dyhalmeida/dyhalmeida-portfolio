@@ -31,3 +31,16 @@ export const itemVariantsTitles = {
     opacity: 1,
   },
 }
+
+export const itemsVariantsY = {
+  initial: { y: 100, opacity: 0 },
+  animate: (index: number) => ({
+    y: 0,
+    opacity: 1,
+
+    transition: {
+      delay: 1 * index,
+      duration: 1,
+    },
+  }),
+}
