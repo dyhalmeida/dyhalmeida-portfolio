@@ -1,5 +1,7 @@
 import { PiArrowLineDownLight as ArrowLineDownLightIcon } from 'react-icons/pi'
 import { RiMenu3Fill as MenuMobileIcon } from 'react-icons/ri'
+import { HiOutlineMail as OutlineMailIcon } from 'react-icons/hi'
+import { CiLocationOn as LocationIcon } from 'react-icons/ci'
 import {
   AiFillLinkedin as LinkedinIcon,
   AiOutlineWhatsApp as WhatsAppIcon,
@@ -21,6 +23,8 @@ export {
   WhatsAppIcon,
   GithubIcon,
   ArrowLineDownLightIcon,
+  OutlineMailIcon,
+  LocationIcon,
 }
 export {
   TypeIt,
